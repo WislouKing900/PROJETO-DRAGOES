@@ -46,8 +46,7 @@ p {
     border-radius: 20px;
 }
 
-.Atributos {
+.ATRIBUTOS {
     position: absolute;
-    display: inline-block;
-    width: 50%;
+    width: 700px;
 }
