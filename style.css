@@ -47,6 +47,8 @@ p {
 }
 
 .ATRIBUTOS {
+    background-color: black;
     width: 700px;
-    margin-top: 100px;
+    margin-top: 20px;
+    margin-left: 305px;
 }
