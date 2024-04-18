@@ -1,54 +1,65 @@
-
 body {
-    background-image: url(stone_inicial.jpg);
+  background-image: url(stone_inicial.jpg);
 }
 
 header {
-    background-image: url(ESCAMA.jpg);
+  background-image: url(ESCAMA.jpg);
 }
 
-.caixa_1 {
-    display: inline-block;
-    background-image: url(scale_saphira.jpg);
-    border-radius: 10px;
-    width: 25%;
-    margin: 30px;
-    margin-bottom: 40px;
-    
+.caixa {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
 }
 
 .intro {
-    text-align: center;
-    margin: 15px 10px;
-    padding: 12px;
-    font-size: 18px;
-    color:gold;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+  width: 420px;
+  background-image: url(scale_saphira.jpg);
+  border-radius: 30px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: goldenrod;
 }
 
 h2 {
-    text-transform: uppercase;
-    font-size: 30px;
-    text-decoration: dashed;
-    padding: 10px 0 0 0;
-    margin: 10px;
-}
-
-p {
-    padding-top: 10px;
+  font-size: 42px;
+  margin-bottom: 17px;
 }
 
 .sky_dragon {
-    position: absolute;
-    width: 910px;
-    margin-top: 30px;
-    height: 550px;
-    border-radius: 20px;
+  width: 900px;
+  border-radius: 30px;
 }
 
 .ATRIBUTOS {
-    background-color: black;
-    width: 700px;
-    margin-top: 20px;
-    margin-left: 305px;
+  background-color: black;
+  width: 700px;
+  margin-top: 20px;
+  margin-left: 305px;
+}
+
+/*PC*/
+@media (max-width: 2560px) and (min-width: 768px) {
+  .caixa {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .sky_dragon {
+    width: 600px;
+    border-radius: 30px;
+  }
+  .caixa {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+  }
 }
