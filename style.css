@@ -1,9 +1,13 @@
-body {
-  background-image: url(stone_inicial.jpg);
-}
-
 header {
   background-image: url(ESCAMA.jpg);
+}
+
+.brasao_lm {
+  width: 500px;
+}
+
+body {
+  background-image: url(stone_inicial.jpg);
 }
 
 .caixa {
@@ -21,14 +25,14 @@ header {
   flex-direction: column;
   background-image: url(scale_saphira.jpg);
   width: 270px;
-  margin: 30px;
-  padding: 10px;
+  /*margin: 30px;
+  padding: 10px;*/
   color: goldenrod;
   border-radius: 18px;
   
 }
 
-h2 {
+h1 {
   font-size: 42px;
   font: bolder;
   margin: 10px;
@@ -39,8 +43,8 @@ p {
 }
 
 .sky_dragon {
-  width: 800px;
-  height: 470px;
+  width: 400px;
+  height: 300px;
   border-radius: 20px;
 }
 
