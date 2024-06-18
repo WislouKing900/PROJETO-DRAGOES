@@ -64,3 +64,45 @@
 
 }
 
+/*MOVEL M - 375px*/
+
+@media(max-width: 375px) {
+  .intro {
+    width: 350px;
+  }
+
+  .sky_dragon {
+    display: flex;
+    width: 360px;
+  }
+
+}
+
+/*S MOVEL-320px*/
+
+@media(max-width: 320px) {
+  .brasao_lm {
+    display: flex;
+    width: 300px;
+  }
+  
+  .intro {
+    width: 307px;
+  }
+
+  h1 {
+    width: 300px;
+  }
+
+  .sky_dragon {
+    display: flex;
+    width: 300px;
+  }
+
+  .atributos_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+}
