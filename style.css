@@ -1,5 +1,5 @@
 header {
-  background-image: url(ESCAMA.jpg);
+  background-image: url(assets/imagens/ESCAMA.jpg);
 }
 
 .brasao_lm {
@@ -7,7 +7,7 @@ header {
 }
 
 body {
-  background-image: url(stone_inicial.jpg);
+  background-image: url(assets/imagens/stone_inicial.jpg);
 }
 
 .caixa {
@@ -23,7 +23,7 @@ body {
   justify-content: space-evenly;
   justify-content: center;
   flex-direction: column;
-  background-image: url(scale_saphira.jpg);
+  background-image: url(assets/imagens/scale_saphira.jpg);
   width: 270px;
   /*margin: 30px;
   padding: 10px;*/
