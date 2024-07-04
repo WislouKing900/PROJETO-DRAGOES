@@ -6,6 +6,17 @@ header {
   width: 500px;
 }
 
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+}
+
 body {
   background-image: url(assets/imagens/stone_inicial.jpg);
 }
