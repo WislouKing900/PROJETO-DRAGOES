@@ -1,9 +1,13 @@
+body {
+  background-image: url(assets/imagens/corredor_B.jpg);
+}
+
 header {
   background-image: url(assets/imagens/ESCAMA.jpg);
 }
 
 .brasao_lm {
-  width: 500px;
+  width: 420px;
 }
 
 nav {
@@ -24,10 +28,6 @@ nav ul li {
   font-size: 30px;
   color: gold;
   text-transform: uppercase;
-}
-
-body {
-  background-image: url(assets/imagens/stone_inicial.jpg);
 }
 
 .caixa {
@@ -85,7 +85,7 @@ footer {
 }
 
 .logo_branco {
-  width: 260px;
+  width: 210px;
   
 }
 
