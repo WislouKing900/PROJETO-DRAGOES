@@ -20,6 +20,8 @@ nav {
 .menu {
   display: flex;
   justify-content: space-between;
+  margin-right: 80px;
+  margin-bottom: 46px;
 }
 
 nav ul li {
