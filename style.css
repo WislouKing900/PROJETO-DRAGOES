@@ -10,7 +10,7 @@ header {
   width: 420px;
 }
 
-nav {
+.menu_navigation {
   display: flex;
   justify-content: flex-end;
   padding: 10px;
@@ -24,7 +24,7 @@ nav {
   margin-bottom: 46px;
 }
 
-nav ul li {
+.menu_navigation ul li {
   display: inline-block;
   margin: 0 0 0 15px;
   font-size: 30px;
