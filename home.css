@@ -23,6 +23,33 @@ header {
     margin-right: 80px;
     margin-bottom: 46px;
   }
+
+  .caixa_drago {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: gold;
+    padding: 15px;
+    margin: 30px;
+    
+  }
+  
+  .species_de_dragoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 600px ;
+    margin: auto;
+  }
   
   nav ul li {
     display: inline-block;
