@@ -51,13 +51,15 @@ header {
     margin: auto;
   }
   
-  nav ul li {
+  nav ul .button {
     display: inline-block;
     margin: 0 0 0 15px;
     font-size: 30px;
     color: gold;
     text-transform: uppercase;
   }
+
+
 
 footer {
     background-image: url(assets/imagens/ESCAMA.jpg);
