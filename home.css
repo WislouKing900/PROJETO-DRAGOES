@@ -59,7 +59,15 @@ header {
     text-transform: uppercase;
   }
 
+.wrapper, .dragon_t {
+  display: grid;
+}
 
+.dragon_t {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
 
 footer {
     background-image: url(assets/imagens/ESCAMA.jpg);
