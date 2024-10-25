@@ -7,67 +7,71 @@ header {
 }
 
 .brasao_lm {
-    width: 420px;
-  }
+  width: 420px;
+}
 
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    padding: 10px;
-    margin: 10px;
-  }
-  
-  .menu {
-    display: flex;
-    justify-content: space-between;
-    margin-right: 80px;
-    margin-bottom: 46px;
-  }
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 10px;
+}
 
-  .caixa_drago {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    
-  }
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 80px;
+  margin-bottom: 46px;
+}
 
-  h1 {
-    text-align: center;
-    font-size: 30px;
-    text-transform: uppercase;
-    color: gold;
-    padding: 15px;
-    margin: 30px;
-    
-  }
+.caixa_drago {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
   
-  .species_de_dragoes {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center;
-    width: 600px ;
-    margin: auto;
-  }
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: gold;
+  padding: 15px;
+  margin: 30px;
   
-  nav ul .button {
-    display: inline-block;
-    margin: 0 0 0 15px;
-    font-size: 30px;
-    color: gold;
-    text-transform: uppercase;
-  }
+}
+
+.species_de_dragoes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 600px ;
+  margin: auto;
+}
+
+nav ul .button {
+  display: inline-block;
+  margin: 0 0 0 15px;
+  font-size: 30px;
+  color: gold;
+  text-transform: uppercase;
+}
 
 .wrapper {
-  display: grid;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
   
 }
 
-.wrapper, .dragon_t {
+/*.dragon_t {
   display: inline-block;
   
-}
+  
+}*/
 
 
 
