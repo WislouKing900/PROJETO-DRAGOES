@@ -1,9 +1,9 @@
 body {
-    background-image: url(assets/imagens/pergaminho.jpg);
+  background-image: url(assets/imagens/pergaminho.jpg);
 }
 
 header {
-    background-image: url(assets/imagens/ESCAMA.jpg);
+  background-image: url(assets/imagens/ESCAMA.jpg);
 }
 
 .brasao_lm {
@@ -24,54 +24,50 @@ nav {
   margin-bottom: 46px;
 }
 
-.caixa_drago {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
+  .caixa_drago {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: gold;
+    padding: 15px;
+    margin: 30px;
+    
+  }
   
-}
-
-h1 {
-  text-align: center;
-  font-size: 30px;
-  text-transform: uppercase;
-  color: gold;
-  padding: 15px;
-  margin: 30px;
+  .species_de_dragoes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 600px ;
+    margin: auto;
+  }
   
-}
-
-.species_de_dragoes {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-  width: 600px ;
-  margin: auto;
-}
-
-nav ul .button {
-  display: inline-block;
-  margin: 0 0 0 15px;
-  font-size: 30px;
-  color: gold;
-  text-transform: uppercase;
-}
+  nav ul .button {
+    display: inline-block;
+    margin: 0 0 0 15px;
+    font-size: 30px;
+    color: gold;
+    text-transform: uppercase;
+  }
 
 .wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  
+  display: grid;
   
 }
 
-/*.dragon_t {
+.wrapper, .dragon_t {
   display: inline-block;
   
-  
-}*/
+}
 
 
 
