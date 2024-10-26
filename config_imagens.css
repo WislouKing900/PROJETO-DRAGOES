@@ -1,5 +1,8 @@
 /*imagens da caixa dragão*/
 .dragon_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     width: 250px;
 }
 
@@ -21,4 +24,16 @@
 
 .knucker {
     width: 190px;
+}
+
+.ying-long {
+    width: 250px;
+}
+
+.pyrausta {
+    width: 170px;
+}
+
+.amphythere {
+    width: 210px;
 }
