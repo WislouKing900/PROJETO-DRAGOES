@@ -63,6 +63,8 @@ nav ul .botão {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  align-items: center;
+  margin: 0 250px;
   
 }
 
@@ -70,12 +72,13 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
   text-align: center;
   align-items: center;
   background: none;
   border: none;
   width: 250px;
-  padding: none;
+  
 }
 
 button img {
@@ -83,15 +86,37 @@ button img {
   height: auto;
 }
 
-/*.wrapper,*/ .dragon_t {
+.dragon_t {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 10px;
+}
 
+@keyframes flame {
+  0% {
+    box-shadow: 0px 0px 10px 5px rgba(255, 165, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0px 0px 20px 10px rgba(255, 165, 0, 0.8);
+  }
+  100% {
+    box-shadow: 0px 0px 10px 5px rgba(255, 165, 0, 0.5);
+  }
+}
+
+button:hover {
+  /* ... outras propriedades ... */
+  animation: flame 5s infinite alternate;
   
 }
 
+button:hover {
+  box-shadow: 0px 0px 100px 13px rgba(255, 165, 0, 0.5); /* Sombra de fogo */
+  transform: scale(1.05);
+  transition: 2s;
+}
 
 
 footer {
