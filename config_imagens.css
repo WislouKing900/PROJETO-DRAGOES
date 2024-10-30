@@ -3,7 +3,11 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    width: 250px;
+    width: 220px;
+}
+
+.selo-real {
+    width: 100px;
 }
 
 .drake {

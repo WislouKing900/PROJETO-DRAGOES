@@ -1,3 +1,7 @@
+/* import da letra medieval*/
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
 body {
   background-image: url(assets/imagens/pergaminho.jpg);
 }
@@ -6,15 +10,43 @@ header {
   background-image: url(assets/imagens/ESCAMA.jpg);
 }
 
-.brasao_lm {
+.insignia {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.selo-scription {
+  font-family: 'MedievalSharp', sans-serif;
+  margin: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
   width: 420px;
+}
+
+.brasao_lm {
+  width: 380px;
 }
 
 nav {
   display: flex;
   justify-content: flex-end;
-  padding: 10px;
-  margin: 10px;
+  /*padding: 10px;
+  margin: 10px;*/
+}
+
+li:hover {
+  transform: scale(101%);
+  box-shadow: 0px 0px 100px 13px rgba(255, 165, 0, 0.5); /* Sombra de fogo */
+  transition: 2s;
 }
 
 .menu {
@@ -23,6 +55,8 @@ nav {
   margin-right: 80px;
   margin-bottom: 46px;
 }
+
+
 
 .caixa_drago {
   display: flex;
