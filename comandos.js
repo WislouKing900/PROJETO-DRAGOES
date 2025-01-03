@@ -1,5 +1,9 @@
-var nome = prompt(`Quem é você ?`);
+var nome = prompt(`Quem vem lá ?`);
 alert(`Seja Bem-Vindo(a) ${nome}`)
+
+if (nome = ''){
+    window.document.body.style.background = 'black'
+}
 
 var insignia = window.document.getElementById('insignia')
 
