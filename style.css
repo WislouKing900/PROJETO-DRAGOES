@@ -14,14 +14,14 @@ header {
   display: flex;
   justify-content: flex-end;
   padding: 10px;
-  margin: 10px;
+  margin: 15px;
 }
 
 .menu {
   display: flex;
   justify-content: space-between;
-  margin-right: 80px;
-  margin-bottom: 46px;
+  /*margin-right: 80px;
+  margin-bottom: 46px;*/
 }
 
 .menu_navigation ul li {

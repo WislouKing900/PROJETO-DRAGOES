@@ -67,6 +67,23 @@
 /*MOVEL M - 375px*/
 
 @media(max-width: 375px) {
+
+  .container_navigation {
+    display: flex;
+    justify-content:center ;
+  }
+  .menu_navigation ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+
+  .menu {
+    display: flex;
+    justify-content: center;
+  }
+
   .intro {
     width: 350px;
   }
@@ -86,6 +103,14 @@
     width: 300px;
   }
   
+  .menu_navigation ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+  }
+  
+
   .intro {
     width: 307px;
   }
@@ -103,6 +128,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 200px;
     
   }
 }
