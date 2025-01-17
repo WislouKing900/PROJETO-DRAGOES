@@ -19,3 +19,9 @@ if (nome.includes('\__|__/')){
     insignia.style.display = 'none'
 }
 
+var n1 = Number(prompt('escreva um numero'))
+var n2 = Number(prompt('escreva outro numero'))
+
+var soma = n1 + n2
+
+alert(`a soma de ${n1} e ${n2} é ${soma}`)
