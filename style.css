@@ -24,8 +24,12 @@ header {
   margin-bottom: 46px;*/
 }
 
+<<<<<<< HEAD
 /* A classe .menu_button agora está no <a> dentro do <li> */
 .menu_button {
+=======
+.menu_navigation ul li {
+>>>>>>> 94a6f1ab42f46018d63fcc78a7627e3c3e7adc35
   display: inline-block;
   margin: 0 0 0 15px;
   font-size: 30px;

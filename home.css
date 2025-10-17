@@ -25,6 +25,10 @@ header {
   margin: 10px;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 94a6f1ab42f46018d63fcc78a7627e3c3e7adc35
 .logo {
   display: flex;
   flex-direction: row;
@@ -56,6 +60,19 @@ li:hover {
   margin-bottom: 46px;
 }
 
+<<<<<<< HEAD
+=======
+
+
+.caixa_drago {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+>>>>>>> 94a6f1ab42f46018d63fcc78a7627e3c3e7adc35
 h1 {
   text-align: center;
   font-size: 30px;
@@ -66,6 +83,11 @@ h1 {
   
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 94a6f1ab42f46018d63fcc78a7627e3c3e7adc35
 .species_de_dragoes {
   display: flex;
   justify-content: center;
@@ -74,6 +96,7 @@ h1 {
   width: 600px ;
   margin: auto;
 }
+<<<<<<< HEAD
 .caixa_drago {
   display: flex;
   justify-content: center;
@@ -84,6 +107,10 @@ h1 {
 
 /* A classe .botão agora está no <a>, não mais no <li> */
 .botão {
+=======
+
+nav ul .botão {
+>>>>>>> 94a6f1ab42f46018d63fcc78a7627e3c3e7adc35
   display: inline-block;
   margin: 0 0 0 15px;
   font-size: 30px;
@@ -92,6 +119,7 @@ h1 {
 }
 
 .wrapper {
+<<<<<<< HEAD
   display: grid;
   /* Cria 3 colunas de largura igual */
   grid-template-columns: repeat(3, 1fr);
@@ -100,26 +128,52 @@ h1 {
   /* Define uma largura máxima e centraliza o container */
   max-width: 1000px;
   margin: 0 auto;
+=======
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 250px;
+  
+>>>>>>> 94a6f1ab42f46018d63fcc78a7627e3c3e7adc35
 }
 
 button {
   display: flex;
+<<<<<<< HEAD
   flex-direction: column; /* Garante que o título fique acima da imagem */
+=======
+  flex-direction: row;
+  flex-wrap: wrap;
+>>>>>>> 94a6f1ab42f46018d63fcc78a7627e3c3e7adc35
   justify-content: center;
   text-align: center;
   align-items: center;
   background: none;
   border: none;
   width: 250px;
+<<<<<<< HEAD
   cursor: pointer; /* Adiciona o cursor de ponteiro para indicar que é clicável */
+=======
+  
+>>>>>>> 94a6f1ab42f46018d63fcc78a7627e3c3e7adc35
 }
 
 button img {
   max-width: 100%;
   height: auto;
 }
+<<<<<<< HEAD
 /* O .dragon_t agora é o <li> que contém o <button> */
 .dragon_t {
+=======
+
+.dragon_t {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+>>>>>>> 94a6f1ab42f46018d63fcc78a7627e3c3e7adc35
   margin: 10px;
 }
 
