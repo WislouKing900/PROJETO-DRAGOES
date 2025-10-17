@@ -1,0 +1,44 @@
+/*imagens da caixa dragão*/
+.dragon_logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 220px;
+}
+
+.selo-real {
+    width: 100px;
+}
+
+.drake {
+    width: 270px;
+}
+
+.fae {
+    width: 220px;
+    
+}
+
+.hidra {
+    width: 270px;
+}
+
+.lung {
+    width: 220px;
+}
+
+.knucker {
+    width: 190px;
+}
+
+.ying-long {
+    width: 250px;
+}
+
+.pyrausta {
+    width: 190px;
+}
+
+.amphythere {
+    width: 210px;
+}

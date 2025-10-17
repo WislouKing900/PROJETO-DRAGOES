@@ -1,0 +1,103 @@
+body {
+  background-image: url(assets/imagens/corredor_B.jpg);
+}
+
+header {
+  background-image: url(assets/imagens/ESCAMA.jpg);
+}
+
+.brasao_lm {
+  width: 420px;
+}
+
+.menu_navigation {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+  margin: 15px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  /*margin-right: 80px;
+  margin-bottom: 46px;*/
+}
+
+.menu_navigation ul li {
+  display: inline-block;
+  margin: 0 0 0 15px;
+  font-size: 30px;
+  color: gold;
+  text-transform: uppercase;
+}
+
+li:hover {
+  transform: scale(105%);
+  box-shadow: 0px 0px 100px 13px rgba(255, 165, 0, 0.5); /* Sombra de fogo */
+  transition: 2s;
+}
+
+.caixa {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  margin-top: 40px;
+  
+}
+
+.intro {
+  display: flex;
+  justify-content: space-evenly;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(assets/imagens/scale_saphira.jpg);
+  width: 270px;
+  /*margin: 30px;
+  padding: 10px;*/
+  color: goldenrod;
+  border-radius: 18px;
+  
+}
+
+h1 {
+  font-size: 42px;
+  font: bolder;
+  margin: 10px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.sky_dragon {
+  width: 700px;
+  height: 500px;
+  border-radius: 20px;
+}
+
+.atributos {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px;
+  
+}
+
+footer {
+  background-image: url(assets/imagens/ESCAMA.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo_branco {
+  width: 210px;
+  
+}
+
+.Copyright {
+  margin: 25px;
+  color: aliceblue;
+}

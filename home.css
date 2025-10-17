@@ -1,0 +1,172 @@
+/* import da letra medieval*/
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+body {
+  background-image: url(assets/imagens/pergaminho.jpg);
+}
+
+header {
+  background-image: url(assets/imagens/ESCAMA.jpg);
+}
+
+.insignia {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+.selo-scription {
+  font-family: 'MedievalSharp', sans-serif;
+  margin: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-content: flex-start;
+  width: 420px;
+}
+
+.brasao_lm {
+  width: 380px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  /*padding: 10px;
+  margin: 10px;*/
+}
+
+li:hover {
+  transform: scale(101%);
+  box-shadow: 0px 0px 100px 13px rgba(255, 165, 0, 0.5); /* Sombra de fogo */
+  transition: 2s;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 80px;
+  margin-bottom: 46px;
+}
+
+
+
+.caixa_drago {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: gold;
+  padding: 15px;
+  margin: 30px;
+  
+}
+
+.species_de_dragoes {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 600px ;
+  margin: auto;
+}
+
+nav ul .botão {
+  display: inline-block;
+  margin: 0 0 0 15px;
+  font-size: 30px;
+  color: gold;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 250px;
+  
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: none;
+  border: none;
+  width: 250px;
+  
+}
+
+button img {
+  max-width: 100%;
+  height: auto;
+}
+
+.dragon_t {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 10px;
+}
+
+@keyframes flame {
+  0% {
+    box-shadow: 0px 0px 10px 5px rgba(255, 165, 0, 0.5);
+  }
+  50% {
+    box-shadow: 0px 0px 20px 10px rgba(255, 165, 0, 0.8);
+  }
+  100% {
+    box-shadow: 0px 0px 10px 5px rgba(255, 165, 0, 0.5);
+  }
+}
+
+button:hover {
+  /* ... outras propriedades ... */
+  animation: flame 5s infinite alternate;
+  
+}
+
+button:hover {
+  box-shadow: 0px 0px 100px 13px rgba(255, 165, 0, 0.5); /* Sombra de fogo */
+  transform: scale(1.05);
+  transition: 2s;
+}
+
+
+footer {
+    background-image: url(assets/imagens/ESCAMA.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_branco {
+  width: 210px;
+  
+}
+
+.Copyright {
+  margin: 25px;
+  color: aliceblue;
+}
