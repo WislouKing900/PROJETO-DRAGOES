@@ -1,9 +1,9 @@
 body {
-  background-image: url(assets/imagens/corredor_B.jpg);
+  background-image: url(../assets/imagens/corredor_B.jpg);
 }
 
 header {
-  background-image: url(assets/imagens/ESCAMA.jpg);
+  background-image: url(../assets/imagens/ESCAMA.jpg);
 }
 
 .brasao_lm {
@@ -52,7 +52,7 @@ li:hover {
   justify-content: space-evenly;
   justify-content: center;
   flex-direction: column;
-  background-image: url(assets/imagens/scale_saphira.jpg);
+  background-image: url(../assets/imagens/scale_saphira.jpg);
   width: 270px;
   /*margin: 30px;
   padding: 10px;*/
@@ -86,7 +86,7 @@ p {
 }
 
 footer {
-  background-image: url(assets/imagens/ESCAMA.jpg);
+  background-image: url(../assets/imagens/ESCAMA.jpg);
   display: flex;
   flex-direction: column;
   justify-content: center;
