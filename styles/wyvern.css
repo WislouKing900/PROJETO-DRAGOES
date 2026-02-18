@@ -81,7 +81,19 @@ h1 {
 .two_wyvens {
     height: 500px;
     width: 1900px;
-    border-radius: 100px;
+    border-radius: 800px;
+}
+
+.box_atributes {
+  background-image: url(/assets/imagens/scale_red_metalic.png);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  width: 600px ;
+  margin: auto;
+  border-radius: 20px;
+  
 }
 
 footer {
