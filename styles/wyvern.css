@@ -81,7 +81,23 @@ h1 {
 .two_wyvens {
     height: 500px;
     width: 1900px;
-    border-radius: 800px;
+    border-radius: 100px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.descrition {
+  font-family: medievalsharp;
+  font-size: 40px;
+  color: rgb(226, 223, 17);
+  margin: 100px;
+  text-align: center;
+  
 }
 
 .box_atributes {
@@ -93,7 +109,18 @@ h1 {
   width: 600px ;
   margin: auto;
   border-radius: 20px;
-  
+  color: rgb(226, 223, 17);
+  font-size: 40px;  
+  margin: 30px;
+  padding: 30px;
+}
+
+.atributs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  margin: 50px;;
 }
 
 footer {
